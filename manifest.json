@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Research Assistant",
+    "version": "1.0",
+    "description": "Enhance online research with quick access to reference materials, citations, and translation tools.",
+    "permissions": ["activeTab", "storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+      }
+    },
+    "options_page": "options.html",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  }
+  
